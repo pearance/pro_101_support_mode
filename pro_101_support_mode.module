@@ -1,0 +1,7 @@
+<?php
+/**
+ * @file
+ * Code for the Pro 101 Support Mode feature.
+ */
+
+include_once 'pro_101_support_mode.features.inc';

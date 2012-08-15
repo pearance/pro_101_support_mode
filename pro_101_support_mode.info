@@ -1,0 +1,13 @@
+name = Pro 101 Support Mode
+description = Various development & support tools available in maintenance mode.
+core = 7.x
+package = Pro 101 Development (G)
+version = 7.x-1.0
+project = pro_101_support_mode
+dependencies[] = ctools
+dependencies[] = masquerade
+dependencies[] = masquerade_context
+dependencies[] = context
+features[context][] = support
+features[ctools][] = context:context:3
+features[features_api][] = api:1
