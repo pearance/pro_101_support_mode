@@ -6,6 +6,7 @@ php = 5.2.4
 version = 7.x-1.0
 project = pro_101_support_mode
 dependencies[] = checklistapi
+dependencies[] = context
 dependencies[] = dblog
 dependencies[] = delta_ui
 dependencies[] = devel
