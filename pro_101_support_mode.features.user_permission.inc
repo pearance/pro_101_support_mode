@@ -20,13 +20,11 @@ function pro_101_support_mode_user_default_permissions() {
     'module' => 'devel',
   );
 
-  // Exported permission: access record feature.
-  $permissions['access record feature'] = array(
-    'name' => 'access record feature',
-    'roles' => array(
-      0 => 'developer',
-    ),
-    'module' => 'record_feature',
+  // Exported permission: administer contexts.
+  $permissions['administer contexts'] = array(
+    'name' => 'administer contexts',
+    'roles' => array(),
+    'module' => 'context_ui',
   );
 
   // Exported permission: administer delta.
@@ -72,6 +70,15 @@ function pro_101_support_mode_user_default_permissions() {
       0 => 'developer',
     ),
     'module' => 'stringoverrides',
+  );
+
+  // Exported permission: edit any checklistapi checklist.
+  $permissions['edit any checklistapi checklist'] = array(
+    'name' => 'edit any checklistapi checklist',
+    'roles' => array(
+      0 => 'developer',
+    ),
+    'module' => 'checklistapi',
   );
 
   // Exported permission: edit pro_101_qa_checklist checklistapi checklist.
@@ -125,6 +132,24 @@ function pro_101_support_mode_user_default_permissions() {
       0 => 'developer',
     ),
     'module' => 'devel',
+  );
+
+  // Exported permission: view any checklistapi checklist.
+  $permissions['view any checklistapi checklist'] = array(
+    'name' => 'view any checklistapi checklist',
+    'roles' => array(
+      0 => 'developer',
+    ),
+    'module' => 'checklistapi',
+  );
+
+  // Exported permission: view checklistapi checklists report.
+  $permissions['view checklistapi checklists report'] = array(
+    'name' => 'view checklistapi checklists report',
+    'roles' => array(
+      0 => 'developer',
+    ),
+    'module' => 'checklistapi',
   );
 
   // Exported permission: view pro_101_qa_checklist checklistapi checklist.
