@@ -30,7 +30,7 @@ function pro_101_support_mode_strongarm() {
   $strongarm->disabled = FALSE; /* Edit this to true to make a default strongarm disabled initially */
   $strongarm->api_version = 1;
   $strongarm->name = 'dummyimages_generate';
-  $strongarm->value = '2';
+  $strongarm->value = '3';
   $export['dummyimages_generate'] = $strongarm;
 
   $strongarm = new stdClass();
