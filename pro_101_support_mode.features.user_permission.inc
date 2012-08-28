@@ -72,22 +72,6 @@ function pro_101_support_mode_user_default_permissions() {
     'module' => 'stringoverrides',
   );
 
-  // Exported permission: edit any checklistapi checklist.
-  $permissions['edit any checklistapi checklist'] = array(
-    'name' => 'edit any checklistapi checklist',
-    'roles' => array(
-      0 => 'developer',
-    ),
-    'module' => 'checklistapi',
-  );
-
-  // Exported permission: edit pro_101_qa_checklist checklistapi checklist.
-  $permissions['edit pro_101_qa_checklist checklistapi checklist'] = array(
-    'name' => 'edit pro_101_qa_checklist checklistapi checklist',
-    'roles' => array(),
-    'module' => 'checklistapi',
-  );
-
   // Exported permission: execute php code.
   $permissions['execute php code'] = array(
     'name' => 'execute php code',
@@ -132,31 +116,6 @@ function pro_101_support_mode_user_default_permissions() {
       0 => 'developer',
     ),
     'module' => 'devel',
-  );
-
-  // Exported permission: view any checklistapi checklist.
-  $permissions['view any checklistapi checklist'] = array(
-    'name' => 'view any checklistapi checklist',
-    'roles' => array(
-      0 => 'developer',
-    ),
-    'module' => 'checklistapi',
-  );
-
-  // Exported permission: view checklistapi checklists report.
-  $permissions['view checklistapi checklists report'] = array(
-    'name' => 'view checklistapi checklists report',
-    'roles' => array(
-      0 => 'developer',
-    ),
-    'module' => 'checklistapi',
-  );
-
-  // Exported permission: view pro_101_qa_checklist checklistapi checklist.
-  $permissions['view pro_101_qa_checklist checklistapi checklist'] = array(
-    'name' => 'view pro_101_qa_checklist checklistapi checklist',
-    'roles' => array(),
-    'module' => 'checklistapi',
   );
 
   return $permissions;
