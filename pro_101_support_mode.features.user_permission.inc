@@ -38,24 +38,6 @@ function pro_101_support_mode_user_default_permissions() {
     'module' => 'masquerade',
   );
 
-  // Exported permission: administer module filter.
-  $permissions['administer module filter'] = array(
-    'name' => 'administer module filter',
-    'roles' => array(
-      0 => 'developer',
-    ),
-    'module' => 'module_filter',
-  );
-
-  // Exported permission: administer string overrides.
-  $permissions['administer string overrides'] = array(
-    'name' => 'administer string overrides',
-    'roles' => array(
-      0 => 'developer',
-    ),
-    'module' => 'stringoverrides',
-  );
-
   // Exported permission: execute php code.
   $permissions['execute php code'] = array(
     'name' => 'execute php code',
