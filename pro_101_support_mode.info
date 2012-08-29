@@ -34,4 +34,3 @@ features[variable][] = maintenance_mode
 features[variable][] = masquerade_admin_roles
 features[variable][] = masquerade_quick_switches
 features[variable][] = masquerade_test_user
-features[variable][] = tadaa_environment

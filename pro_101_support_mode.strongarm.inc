@@ -68,12 +68,5 @@ function pro_101_support_mode_strongarm() {
   $strongarm->value = '';
   $export['masquerade_test_user'] = $strongarm;
 
-  $strongarm = new stdClass();
-  $strongarm->disabled = FALSE; /* Edit this to true to make a default strongarm disabled initially */
-  $strongarm->api_version = 1;
-  $strongarm->name = 'tadaa_environment';
-  $strongarm->value = 'development';
-  $export['tadaa_environment'] = $strongarm;
-
   return $export;
 }
