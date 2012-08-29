@@ -20,13 +20,6 @@ function pro_101_support_mode_user_default_permissions() {
     'module' => 'devel',
   );
 
-  // Exported permission: administer contexts.
-  $permissions['administer contexts'] = array(
-    'name' => 'administer contexts',
-    'roles' => array(),
-    'module' => 'context_ui',
-  );
-
   // Exported permission: administer delta.
   $permissions['administer delta'] = array(
     'name' => 'administer delta',
@@ -70,15 +63,6 @@ function pro_101_support_mode_user_default_permissions() {
       0 => 'developer',
     ),
     'module' => 'devel',
-  );
-
-  // Exported permission: execute unlink files.
-  $permissions['execute unlink files'] = array(
-    'name' => 'execute unlink files',
-    'roles' => array(
-      0 => 'developer',
-    ),
-    'module' => 'features_tools',
   );
 
   // Exported permission: masquerade as admin.
