@@ -1,5 +1,5 @@
 name = Pro 101 Support Mode
-description = Various development & support tools available in maintenance mode.
+description = Tools for the support & development modes.
 core = 7.x
 package = Pro 101 Development (G)
 php = 5.2.4
