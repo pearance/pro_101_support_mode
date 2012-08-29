@@ -36,15 +36,6 @@ function pro_101_support_mode_user_default_permissions() {
     'module' => 'delta_ui',
   );
 
-  // Exported permission: administer dummyimage.
-  $permissions['administer dummyimage'] = array(
-    'name' => 'administer dummyimage',
-    'roles' => array(
-      0 => 'developer',
-    ),
-    'module' => 'dummyimage',
-  );
-
   // Exported permission: administer masquerade.
   $permissions['administer masquerade'] = array(
     'name' => 'administer masquerade',
