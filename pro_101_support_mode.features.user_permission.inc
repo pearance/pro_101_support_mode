@@ -20,6 +20,13 @@ function pro_101_support_mode_user_default_permissions() {
     'module' => 'devel',
   );
 
+  // Exported permission: administer contexts.
+  $permissions['administer contexts'] = array(
+    'name' => 'administer contexts',
+    'roles' => array(),
+    'module' => 'context_ui',
+  );
+
   // Exported permission: administer delta.
   $permissions['administer delta'] = array(
     'name' => 'administer delta',
