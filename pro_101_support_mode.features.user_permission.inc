@@ -19,6 +19,16 @@ function pro_101_support_mode_user_default_permissions() {
     'module' => 'devel',
   );
 
+  // Exported permission: access theme information.
+  $permissions['access theme information'] = array(
+    'name' => 'access theme information',
+    'roles' => array(
+      0 => 'developer',
+      1 => 'support',
+    ),
+    'module' => 'devel',
+  );
+
   // Exported permission: administer contexts.
   $permissions['administer contexts'] = array(
     'name' => 'administer contexts',
