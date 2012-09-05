@@ -44,6 +44,7 @@ function pro_101_support_mode_user_default_permissions() {
     'name' => 'administer delta',
     'roles' => array(
       0 => 'developer',
+      1 => 'support',
     ),
     'module' => 'delta_ui',
   );
