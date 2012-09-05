@@ -49,6 +49,15 @@ function pro_101_support_mode_user_default_permissions() {
     'module' => 'delta_ui',
   );
 
+  // Exported permission: administer devel menu items.
+  $permissions['administer devel menu items'] = array(
+    'name' => 'administer devel menu items',
+    'roles' => array(
+      0 => 'developer',
+    ),
+    'module' => 'menu_admin_per_menu',
+  );
+
   // Exported permission: administer masquerade.
   $permissions['administer masquerade'] = array(
     'name' => 'administer masquerade',
