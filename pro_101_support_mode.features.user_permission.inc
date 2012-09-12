@@ -67,6 +67,16 @@ function pro_101_support_mode_user_default_permissions() {
     'module' => 'masquerade',
   );
 
+  // Exported permission: edit css.
+  $permissions['edit css'] = array(
+    'name' => 'edit css',
+    'roles' => array(
+      0 => 'developer',
+      1 => 'support',
+    ),
+    'module' => 'live_css',
+  );
+
   // Exported permission: execute php code.
   $permissions['execute php code'] = array(
     'name' => 'execute php code',
