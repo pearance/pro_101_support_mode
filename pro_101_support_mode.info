@@ -15,7 +15,6 @@ dependencies[] = live_css
 dependencies[] = masquerade
 dependencies[] = masquerade_context
 dependencies[] = menu_admin_per_menu
-dependencies[] = omega_tools
 dependencies[] = strongarm
 features[context][] = support
 features[ctools][] = context:context:3
