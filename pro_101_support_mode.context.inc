@@ -41,8 +41,14 @@ function pro_101_support_mode_context_default_contexts() {
         'masquerade-masquerade' => array(
           'module' => 'masquerade',
           'delta' => 'masquerade',
-          'region' => 'sidebar_second',
-          'weight' => 0,
+          'region' => 'debug_2',
+          'weight' => '-10',
+        ),
+        'boost-status' => array(
+          'module' => 'boost',
+          'delta' => 'status',
+          'region' => 'debug_3',
+          'weight' => '-10',
         ),
       ),
     ),
