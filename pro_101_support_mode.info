@@ -18,6 +18,7 @@ dependencies[] = masquerade
 dependencies[] = masquerade_context
 dependencies[] = menu_admin_per_menu
 dependencies[] = omega_tools
+dependencies[] = pro_101_qa_checklist
 dependencies[] = strongarm
 features[context][] = support
 features[ctools][] = context:context:3
