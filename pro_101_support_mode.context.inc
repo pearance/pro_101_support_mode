@@ -13,7 +13,7 @@ function pro_101_support_mode_context_default_contexts() {
   $context = new stdClass();
   $context->disabled = FALSE; /* Edit this to true to make a default context disabled initially */
   $context->api_version = 3;
-  $context->name = 'development';
+  $context->name = 'support';
   $context->description = '';
   $context->tag = 'Section';
   $context->conditions = array(
@@ -41,13 +41,13 @@ function pro_101_support_mode_context_default_contexts() {
           'module' => 'masquerade',
           'delta' => 'masquerade',
           'region' => 'debug_2',
-          'weight' => '0',
+          'weight' => 0,
         ),
         'boost-status' => array(
           'module' => 'boost',
           'delta' => 'status',
           'region' => 'debug_3',
-          'weight' => '0',
+          'weight' => 0,
         ),
       ),
     ),
@@ -57,7 +57,7 @@ function pro_101_support_mode_context_default_contexts() {
   // Translatables
   // Included for use with string extractors like potx.
   t('Section');
-  $export['development'] = $context;
+  $export['support'] = $context;
 
   return $export;
 }
