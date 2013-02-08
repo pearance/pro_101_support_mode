@@ -30,28 +30,11 @@ function pro_101_support_mode_context_default_contexts() {
     ),
     'user' => array(
       'values' => array(
-        'developer' => 'developer',
+        'support' => 'support',
       ),
     ),
   );
-  $context->reactions = array(
-    'block' => array(
-      'blocks' => array(
-        'masquerade-masquerade' => array(
-          'module' => 'masquerade',
-          'delta' => 'masquerade',
-          'region' => 'debug_2',
-          'weight' => 0,
-        ),
-        'boost-status' => array(
-          'module' => 'boost',
-          'delta' => 'status',
-          'region' => 'debug_3',
-          'weight' => 0,
-        ),
-      ),
-    ),
-  );
+  $context->reactions = array();
   $context->condition_mode = 0;
 
   // Translatables
