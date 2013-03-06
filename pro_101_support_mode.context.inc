@@ -15,7 +15,7 @@ function pro_101_support_mode_context_default_contexts() {
   $context->api_version = 3;
   $context->name = 'support';
   $context->description = '';
-  $context->tag = 'Section';
+  $context->tag = 'User Role';
   $context->conditions = array(
     'masquerade_context' => array(
       'values' => array(
@@ -39,7 +39,7 @@ function pro_101_support_mode_context_default_contexts() {
 
   // Translatables
   // Included for use with string extractors like potx.
-  t('Section');
+  t('User Role');
   $export['support'] = $context;
 
   return $export;
